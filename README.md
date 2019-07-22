@@ -26,3 +26,11 @@ The GUI allows stickers for two customers to be printed.  Customer names are bla
 ![Screenshot 3](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot3.PNG)
 ![Screenshot 4](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot4.PNG)
 ![Screenshot 5](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot5.PNG)
+
+## List of Files
+* gui.py - Contains code to create the GUI (written using Tkinter)
+* main.py - The entry point for the executable created by the setup.py file
+* printer.py - Contains classes for our printer.  There is a __Printer__ class for each customer.  
+* setup.py - Imports cx_Freeze and creates the distributable executable that runs on the user's laptop/PC.
+* sticker.py - Contains classes for each customer's sticker.  Each sticker is different so the classes are slightly different as well, but in general, each class initializes the data in the sticker and increments the data in the sticker (if necessary)
+* utils.py - Contains utility functions to do things such as retrieving a list of available COMs, creating sticker or printer objects (rather than using the classes directly, the GUI calls these utility functions when it wants to create one of these objects), providing the directions located in the top area of the GUI, and providing a dictionary relating the label types to a number (1, 2, 3, 4 respectively).
