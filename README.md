@@ -25,3 +25,4 @@ The GUI allows stickers for two customers to be printed.  Customer names are bla
 ![Screenshot 2](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot2.PNG)
 ![Screenshot 3](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot3.PNG)
 ![Screenshot 4](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot4.PNG)
+![Screenshot 5](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot5.PNG)
