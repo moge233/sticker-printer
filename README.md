@@ -27,7 +27,7 @@ The GUI allows stickers for two customers to be printed.  Customer names are bla
 ![Screenshot 4](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot4.PNG)
 ![Screenshot 5](https://github.com/moge233/sticker-printer/blob/master/screenshots/screenshot5.PNG)
 
-## List of Files
+# List of Files
 * gui.py - Contains code to create the GUI (written using Tkinter)
 * main.py - The entry point for the executable created by the setup.py file
 * printer.py - Contains classes for our printer.  There is a __Printer__ class for each customer.  
